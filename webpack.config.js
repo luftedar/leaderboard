@@ -10,10 +10,19 @@ module.exports = {
     plugins: [
     new HtmlWebpackPlugin({
       title: 'Output Management',
+      template: './src/index.html'
     }),
   ],
   mode: 'development',
   devServer: {
     static: './dist',
+  },
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
   },
 };

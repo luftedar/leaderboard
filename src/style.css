@@ -1,3 +1,44 @@
-body {
-  background-color: rebeccapurple;
+* {
+  margin: 0;
+}
+
+h1 {
+  padding: 3rem;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+#display-side div h2{
+  margin-right: 20px;
+}
+
+#display-side div button {
+  margin-left: 20px;
+}
+
+#score-table {
+  margin-top: 20px;
+  height: 100px;
+  width: 100%;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+#score-table li{
+  list-style: none;
+}
+
+#form-area > *{
+  margin: 10px;
+}
+
+#form-area button {
+  align-self: flex-end;
 }
