@@ -15,8 +15,12 @@ h1 {
   flex-direction: column;
 }
 
-#display-side div h2{
+#display-side div h2 {
   margin-right: 20px;
+}
+
+#form-area button {
+  align-self: flex-end;
 }
 
 #display-side div button {
@@ -31,14 +35,10 @@ h1 {
   text-align: center;
 }
 
-#score-table li{
+#score-table li {
   list-style: none;
 }
 
-#form-area > *{
+#form-area > * {
   margin: 10px;
-}
-
-#form-area button {
-  align-self: flex-end;
 }

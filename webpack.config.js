@@ -7,10 +7,10 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
   },
-    plugins: [
+  plugins: [
     new HtmlWebpackPlugin({
       title: 'Output Management',
-      template: './src/index.html'
+      template: './src/index.html',
     }),
   ],
   mode: 'development',
