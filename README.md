@@ -1,18 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leader Board
 
-> One paragraph statement about the project.
+> The leader board project built by using webpack, API.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- JavaScript, HTML&CSS
+- Webpack
+- API
 
 ## Live Demo
 
@@ -21,39 +20,38 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
+
+Open the terminal
+
+Get the clone of the project by:
+
+> git clone git@github.com:luftedar/leaderboard.git
+
+Cd into the file by:
+
+> cd leaderboard
+
+Run following command for installing webpack:
+
+> npm install
+
+Run following for starting local host on your computer:
+
+> npm start
 
 ### Prerequisites
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- Web browser,
+- npm,
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [Luftedar](https://github.com/luftedar)
+- Twitter: [OrcunUgur2](https://twitter.com/OrcunUgur2)
+- LinkedIn: [Orçun Uğur](https://www.linkedin.com/in/or%C3%A7un-u%C4%9Fur-089148181/)
 
 ## 🤝 Contributing
 
@@ -67,9 +65,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+
+- This project built for the Microverse's Module Two Week Four.
+
 
 ## 📝 License
 
