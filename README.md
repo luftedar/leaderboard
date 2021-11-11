@@ -11,7 +11,6 @@
 
 - JavaScript, HTML&CSS
 - Webpack
-- API
 
 ## Live Demo
 
