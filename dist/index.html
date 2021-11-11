@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webpack Exercise</title>
-<script defer src="main.js"></script></head>
+    <title>Leaderboard</title>
+<script defer src="leaderboard/main.js"></script></head>
 <body>
     <h1>Leaderboard</h1>
     <main class="d-flex">
       <div id="display-side">
         <div class="d-flex">
           <h2>Recent Scores</h2>
-          <button>Refresh</button>
+          <button id="refresh-button">Refresh</button>
         </div>
         <div>
           <ul id="score-table">
-            <li>Name:100</li>
           </ul>
         </div>
       </div>
@@ -25,7 +24,7 @@
           <form action="submit" class="d-flex f-column" id="form-area">
             <input type="text" id="name"  placeholder="Your Name">
             <input type="text" id="score" placeholder="Your Score">
-            <button>submit</button>
+            <button type="submit">Submit</button>
           </form>
         </div>
       </div>
