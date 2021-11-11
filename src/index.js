@@ -10,7 +10,7 @@ const renderBoard = async () => {
   const scoreTable = document.querySelector('#score-table');
   scoreTable.innerHTML = '';
   scores.forEach((item) => {
-    const newLi = `<li>${item.user}: ${item.score}</li>`;
+    const newLi = `<li class="li-item">${item.user}: ${item.score}</li>`;
     scoreTable.innerHTML += newLi;
   });
 };
