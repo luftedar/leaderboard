@@ -2,7 +2,7 @@
 
 # Leader Board
 
-> The leader board project built by using webpack, API.
+> A JavaScript project for the Leaderboard, built by using webpack and ES6 features.The website allow to submit and display scores from users. Data is preserved by using REST API.
 
 ![screenshot](./app_screenshot.png)
 
