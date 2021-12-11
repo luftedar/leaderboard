@@ -50,7 +50,7 @@ Run following for starting local host on your computer:
 
 - GitHub: [Luftedar](https://github.com/luftedar)
 - Twitter: [OrcunUgur2](https://twitter.com/OrcunUgur2)
-- LinkedIn: [Orçun Uğur](https://www.linkedin.com/in/or%C3%A7un-u%C4%9Fur-089148181/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/orcunugur)
 
 ## 🤝 Contributing
 
