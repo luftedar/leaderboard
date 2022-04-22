@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mochiy+Pop+One&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Mochiy Pop One', sans-serif;
+}
+
+h1,
+h2,
+li,
+input,
+button {
+  color: rgb(44, 73, 44);
+}
+
+h1 {
+  padding: 3rem;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+#display-side div h2 {
+  margin-right: 20px;
+}
+
+button {
+  background: rgb(0, 190, 0);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+  font-size: 15px;
+}
+
+button:hover {
+  background: rgb(1, 165, 1);
+}
+
+#form-area button {
+  align-self: flex-end;
+}
+
+#display-side div button {
+  margin-left: 20px;
+}
+
+#score-table {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  box-shadow: 5px 10px 8px 10px #888;
+  background: #888;
+  border: 10px;
+}
+
+#score-table li {
+  list-style: none;
+  padding: 5px;
+  background: #e9e9e9;
+  border-radius: 5px;
+}
+
+#form-area > * {
+  margin: 10px;
+}
+
+#score-table .li-item:nth-child(2n) {
+  background: rgb(0, 190, 0);
+}
+
+input {
+  border: 1px solid #888;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid rgb(0, 190, 0);
+}

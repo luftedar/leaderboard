@@ -1,59 +1,56 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leader Board
 
-> One paragraph statement about the project.
+> A JavaScript project for the Leaderboard, built by using webpack and ES6 features.The website allow to submit and display scores from users. Data is preserved by using REST API.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- JavaScript, HTML&CSS
+- Webpack
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://luftedar.github.io/leaderboard/dist)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
+
+Open the terminal
+
+Get the clone of the project by:
+
+> git clone git@github.com:luftedar/leaderboard.git
+
+Cd into the file by:
+
+> cd leaderboard
+
+Run following command for installing webpack:
+
+> npm install
+
+Run following for starting local host on your computer:
+
+> npm start
 
 ### Prerequisites
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- Web browser,
+- npm,
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [Luftedar](https://github.com/luftedar)
+- Twitter: [OrcunUgur2](https://twitter.com/OrcunUgur2)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/orcunugur)
 
 ## 🤝 Contributing
 
@@ -67,9 +64,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+
+- This project built for the Microverse's Module Two Week Four.
+
 
 ## 📝 License
 
